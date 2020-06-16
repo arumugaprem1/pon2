@@ -1,0 +1,379 @@
+body {
+
+  margin: 0;
+}
+
+hr {
+  border-top: 1px dotted #58595b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0 0 10px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #0b5a86;
+}
+
+h1:hover {
+  color: #11699b;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: #58595b;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 1px 0 5px 10px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #a5416e;
+}
+
+h3:hover {
+  color: #bc658d;
+}
+
+h7 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 1px 0 5px 10px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: #a5416e;
+}
+
+h7:hover {
+  color: #bc658d;
+}
+
+
+
+p {
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+  font-family: Noto Sans Tamil;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #231f20;
+}
+
+ul {
+  text-align: left;
+  margin: 2px 2px 2px 2px;
+  font-size: 15px;
+  font-family: Helvetica;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  background-color: #bc658d;
+}
+
+li {
+  text-align: left;
+  margin: 2px 2px 2px 2px;
+  font-size: 13px;
+  font-family: Helvetica;
+  color: #231f20;
+}
+
+.main-page {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#myHeader {
+  background-color: white;
+padding-top: 20px;
+position: fixed;
+top: 0;
+width: 100%;
+transition: 0.5s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  background-color: white;
+  z-index: 10000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header img {
+  width: 100%
+}
+
+.mainimage {
+  margin-top: 5%;
+  position: relative;
+}
+
+.mainimage img {
+  width: 100%;
+}
+
+.mainimage1 {
+  position: relative;
+  background-color: white;
+}
+
+.mainimage1 img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 16px;
+  background-color: white;
+}
+
+.container h1 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 1px 0 5px 0;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #0b5a86;
+}
+
+.container label {
+  margin: 0 auto;
+  text-align: left;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #58595b;
+}
+
+.container1 {
+  position: relative;
+  right: 0;
+  margin: 10px 0 10px 0;
+  text-align: left;
+  max-width: 450px;
+  padding: 16px;
+  background-color: white;
+}
+
+.container1 h1 {
+  margin: 0 auto;
+  text-align: left;
+  padding: 1px 0 5px 0;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #0b5a86;
+}
+
+.container1 label {
+  margin: 0 auto;
+  text-align: left;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #58595b;
+}
+
+/* Full-width input fields */
+input[type=text], [type=email] {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  margin: 2px 0 10px 0;
+  background: #f1f1f1;
+  border: 1px solid #0b5a86;
+  line-height: 13px;
+  /* box-shadow: 0 0 4px #0b5a86 inset;
+  -webkit-box-shadow: 0 0 4px #0b5a86 inset;
+  -moz-box-shadow: 0 0 4px #0b5a86 inset;*/
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: red;
+  width: 70%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  border: 1px solid #c80000;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.btn:hover {
+  background-color: #c80000;
+}
+
+.mainheading {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+
+.mainheadingtab1 {
+  width: 300px;
+  background: linear-gradient(to bottom right, #11699b 0%, #01476d 100%);
+  margin: 10px 5px 0 5px;
+  text-align: left;
+  border-radius: 3px;
+  overflow: hidden;
+  opacity: .9;
+  display: inline-block;
+}
+
+.mainheadingtab1:hover {
+  opacity: 1;
+  -ms-transform: scale(1.01);
+  /* IE 9 */
+  -webkit-transform: scale(1.01);
+  /* Safari 3-8 */
+  transform: scale(1.01);
+}
+
+.pointimage {
+  text-align: center;
+  margin-top:10px;
+}
+
+.pointimage1 {
+  margin:auto;
+  text-align: center;
+
+}
+.proimage {
+  float:left;
+  padding: 10px 5px 10px 10px;
+  max-width: 60px;
+}
+
+.pointimge img{
+  max-width: 70px;
+}
+.mainheadingtab1 h2 {
+  text-align: center;
+  padding: 10px 0 10px 10px;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: white;
+}
+
+.w3-animate-fading {
+  animation: fading 10s infinite
+}
+
+@keyframes fading {
+  0% {
+    opacity: .5
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: .5
+  }
+}
+
+h6 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 15px 0 15px;
+  font-family: Noto Sans Tamil;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1em;
+  color: #231f20;
+}
+
+.foot{
+  display: none;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  bottom: 0;
+  background: linear-gradient(to bottom, #f5a7a7 0%, #bc658d 100%);
+  text-align: center;
+}
+
+.foot h7 {
+  margin: 20px auto;
+  text-align: center;
+  padding: 0 auto;
+  font-family: taun-tamil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+}
+
+
+@media(min-width:1024px) {
+  .hidden-mobile {
+    display: block;
+  }
+
+  .visible-mobile {
+    display: none;
+  }
+
+  .img {
+    height: 100%;
+  }
+}
+
+@media(max-width:1023px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .visible-mobile {
+    display: block;
+  }
+
+  .mainheading {
+    width: 90%;
+  }
+
+
+  .innerw {
+    width: 95%;
+  }
